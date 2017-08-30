@@ -1,10 +1,8 @@
 package com.github.zhangkaitao.shiro.chapter3;
 
-import junit.framework.Assert;
-import org.apache.shiro.authz.ModularRealmAuthorizer;
-import org.apache.shiro.authz.UnauthorizedException;
-import org.apache.shiro.authz.permission.WildcardPermission;
 import org.junit.Test;
+
+import junit.framework.Assert;
 
 /**
  * <p>User: Zhang Kaitao
