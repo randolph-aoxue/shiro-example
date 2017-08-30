@@ -18,7 +18,9 @@ import java.io.IOException;
 @WebServlet(name = "authenticatedServlet", urlPatterns = "/authenticated")
 public class AuthenticatedServlet extends HttpServlet {
 
-    @Override
+	private static final long serialVersionUID = 1L;
+
+	@Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Subject subject = SecurityUtils.getSubject();
         if(subject.isAuthenticated()) {

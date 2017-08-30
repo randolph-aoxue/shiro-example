@@ -11,7 +11,6 @@
     <name>shiro-example-chapter7</name>
     <url>http://maven.apache.org</url>
 
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -36,7 +35,6 @@
             <version>1.2.2</version>
         </dependency>
 
-
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -55,7 +53,6 @@
             <scope>provided</scope>
         </dependency>
 
-
     </dependencies>
 
     <build>
@@ -71,7 +68,15 @@
                     </webAppConfig>
                 </configuration>
             </plugin>
-
+			<plugin>  
+	            <groupId>org.apache.maven.plugins</groupId>  
+	            <artifactId>maven-compiler-plugin</artifactId>  
+	            <version>2.3.2</version>  
+	            <configuration>  
+	                <source>1.8</source>  
+	                <target>1.8</target>  
+	            </configuration>  
+	        </plugin>  
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
@@ -79,10 +84,7 @@
                 <configuration>
                     <path>/${project.build.finalName}</path>
                 </configuration>
-
             </plugin>
         </plugins>
-
-
     </build>
 </project>
