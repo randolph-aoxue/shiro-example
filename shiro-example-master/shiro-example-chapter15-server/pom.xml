@@ -7,7 +7,7 @@
     <url>http://maven.apache.org</url>
 	<parent>
         <artifactId>shiro-example</artifactId>
-        <groupId>com.github.zhangkaitao</groupId>
+        <groupId>com.github.randolph</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <dependencies>

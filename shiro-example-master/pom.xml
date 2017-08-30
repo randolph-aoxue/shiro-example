@@ -4,19 +4,19 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.zhangkaitao</groupId>
+    <groupId>com.github.randolph</groupId>
     <artifactId>shiro-example</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>shiro-example-chapter2</module>
-        <module>shiro-example-chapter3</module>
-        <module>shiro-example-chapter4</module>
-        <module>shiro-example-chapter5</module>
-        <module>shiro-example-chapter6</module>
-        <module>shiro-example-chapter7</module>
-        <module>shiro-example-chapter8</module>
-        <module>shiro-example-chapter9</module>
+        <module>shiro-example-chapter02</module>
+        <module>shiro-example-chapter03</module>
+        <module>shiro-example-chapter04</module>
+        <module>shiro-example-chapter05</module>
+        <module>shiro-example-chapter06</module>
+        <module>shiro-example-chapter07</module>
+        <module>shiro-example-chapter08</module>
+        <module>shiro-example-chapter09</module>
         <module>shiro-example-chapter10</module>
         <module>shiro-example-chapter11</module>
         <module>shiro-example-chapter12</module>

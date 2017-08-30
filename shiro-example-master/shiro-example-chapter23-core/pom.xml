@@ -4,13 +4,11 @@
 
 	<parent>
 		<artifactId>shiro-example-chapter23-pom</artifactId>
-		<groupId>com.github.zhangkaitao</groupId>
+		<groupId>com.github.randolph</groupId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.zhangkaitao</groupId>
 	<artifactId>shiro-example-chapter23-core</artifactId>
-	<version>1.0-SNAPSHOT</version>
 
 	<build>
 		<plugins>
