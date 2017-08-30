@@ -3,11 +3,65 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.github.randolph</groupId>
     <artifactId>shiro-example</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    
+    <properties>
+    	<commons-logging.version>1.2</commons-logging.version>
+    	<shiro.version>1.2.2</shiro.version>
+    	<mysql-connector-java.version>6.0.6</mysql-connector-java.version>
+    	<druid.version>1.1.2</druid.version>
+    </properties>
+    
+    <dependencyManagement>
+	    <dependencies>
+	    	<dependency>
+	            <groupId>com.alibaba</groupId>
+	            <artifactId>druid</artifactId>
+	            <version>${druid.version}</version>
+	        </dependency>
+	     	<dependency>
+	            <groupId>commons-logging</groupId>
+	            <artifactId>commons-logging</artifactId>
+	            <version>${commons-logging.version}</version>
+	        </dependency>
+	        <dependency>
+	            <groupId>junit</groupId>
+	            <artifactId>junit</artifactId>
+	            <version>4.12</version>
+	            <scope>test</scope>
+	        </dependency>
+	        <dependency>
+	            <groupId>mysql</groupId>
+	            <artifactId>mysql-connector-java</artifactId>
+	            <version>${mysql-connector-java.version}</version>
+	        </dependency>
+	        <dependency>
+	            <groupId>org.apache.shiro</groupId>
+	            <artifactId>shiro-core</artifactId>
+	            <version>${shiro.version}</version>
+	        </dependency>
+	    </dependencies>
+    </dependencyManagement>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <modules>
         <module>shiro-example-chapter02</module>
         <module>shiro-example-chapter03</module>
@@ -41,6 +95,4 @@
         <module>shiro-example-chapter23-nginx</module>
         <module>shiro-example-chapter24</module>
     </modules>
-
-
 </project>
