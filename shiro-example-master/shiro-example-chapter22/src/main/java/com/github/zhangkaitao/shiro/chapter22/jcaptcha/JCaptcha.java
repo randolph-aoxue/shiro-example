@@ -5,10 +5,10 @@
  */
 package com.github.zhangkaitao.shiro.chapter22.jcaptcha;
 
+import javax.servlet.http.HttpServletRequest;
+
 import com.octo.captcha.service.CaptchaServiceException;
 import com.octo.captcha.service.captchastore.FastHashMapCaptchaStore;
-
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * <p>User: Zhang Kaitao
