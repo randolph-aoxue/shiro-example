@@ -5,8 +5,6 @@
  */
 package org.apache.shiro.session.mgt;
 
-import org.apache.shiro.session.mgt.SimpleSession;
-
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -147,7 +145,6 @@ public class OnlineSession extends SimpleSession {
      * @throws ClassNotFoundException if a required class needed for instantiation is not available in the present JVM
      * @since 1.0
      */
-    @SuppressWarnings({"unchecked"})
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
         in.defaultReadObject();
         short bitMask = in.readShort();
